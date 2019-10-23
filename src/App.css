@@ -1,0 +1,70 @@
+/* Titles and Text */
+#title {
+  background: url("https://us.123rf.com/450wm/akud/akud1804/akud180400033/100380207-two-donuts-with-pink-glaze-on-bright-blue-background-in-pastel-colors-minimalism-concept-3d-render.jpg?ver=6");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 50% contain;
+  background-color: #58DAEA;
+  height: 400px;
+}
+#titleText {
+  float: right;
+  max-width: 500px;
+  font-family: 'Fredericka the Great', cursive;
+}
+#titleSubtext {
+  margin-top: 25px;
+  max-width: 500px;
+  font-family: 'Fredericka the Great', cursive;
+}
+#titleForm {
+  float: right;
+  margin-top: 25px;
+  max-width: 500px;
+}
+input::placeholder {
+  font-family: 'Fredericka the Great', cursive;
+}
+#titleRecipeList {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+/* Recipe Cards */
+#recipeName {
+  font-family: 'Vesper Libre', serif;
+}
+#recipeSubtext {
+  font-family: 'Cormorant Unicase', serif;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.img-card-top {
+  border-radius: 1%;
+}
+img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+img:hover  {
+  opacity: 0.5;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, rgba(109,255,178,1) 0%, rgba(0,212,255,1) 100%);
+  color: black;
+}
+.btn-success {
+  background: linear-gradient(45deg, rgba(255,14,156,1) 0%, rgba(150,0,255,1) 100%);
+}
